@@ -96,3 +96,25 @@
     font-weight: normal;
     font-style: normal;
   }
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+::selection {
+  background: #14b8a6;
+  color: white;
+}
+
+a,
+button {
+  transition: all 0.3s ease;
+}
+
+* {
+  box-sizing: border-box;
+}
